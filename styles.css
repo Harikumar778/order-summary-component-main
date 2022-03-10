@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,300;1,200;1,300;1,700&family=Poppins:wght@500&family=Red+Hat+Display:wght@500;700;900&family=Roboto+Serif:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    padding: 100px;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-size: cover;
+}
+.flex_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    width: 350px;
+    height: 600px;
+    justify-content: space-between;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.main_content{
+    width: 100%;
+    height: 30%;
+}
+.img_hero{
+    width: 100%;
+    max-height: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.section{
+    justify-content: space-around;
+    height: 70%;
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 25px;
+}
+
+p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.plan{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: hsl(225, 100%, 98%);
+    padding: 15px 10px 15px 10px;
+    border-radius: 20px;
+    align-items: center;
+    position: relative;
+    margin-left: 25px;
+} 
+h2{
+    font-size: 1rem;
+}
+h3{
+    font-size: .8rem;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan>a{
+    font-size: .7rem;
+    padding-left: 60px;
+    padding-right: 5px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+button{
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px 70px 10px 70px;
+    font-size: 1rem;
+    align-items: center;
+    margin-left: 25px;
+    border-radius: 10px;
+    color:hsl(225, 100%, 98%);
+    box-shadow: 0px 12px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+    margin-top: 35px;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(224, 23%, 55%);
+}
+.submit>a{
+    color: hsl(224, 23%, 55%);
+    align-items: center;
+    text-align: center;
+    margin-left: -197px;
+    padding-top: 25px;
+    text-decoration: none;
+    margin-top: 76px;
+    position: absolute;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 600px){
+    .container{
+        width: 280px;
+        height: 480px;
+    }
+    *{
+    font-size: .75em;
+}}
